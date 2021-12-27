@@ -1,0 +1,40 @@
+*.log
+*.py[cod]
+*.mo
+.DS_Store
+__pycache__
+
+dist/
+docs/_build
+
+# jetbrains
+.idea
+atlassian-ide-plugin.xml
+
+# vagrant
+.vagrant
+
+# sublime
+*.sublime-project
+*.sublime-workspace
+
+settings.local.yaml
+spa.yaml
+
+coverage
+.coverage
+coverage.xml
+.coverage*
+htmlcov
+cover
+report.xml
+
+*.egg-info
+
+# virtual environment
+env/
+venv/
+
+.tox/
+
+version.txt
