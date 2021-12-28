@@ -1,0 +1,15 @@
+include setup.cfg
+include README.rst
+include docs/conf.py docs/Makefile
+recursive-include tests *.py
+recursive-include docs *.rst
+graft docs/_static
+graft docs/_themes
+graft docs/_templates
+graft toolset
+graft requirements
+global-exclude *.pyc *.pyo
+global-exclude .gitignore
+global-exclude Vagrantfile
+prune toolset/.pytest_cache
+prune docs/_build

@@ -1,0 +1,7 @@
+# Right now no unified build tool exist for proper handling pyproject.toml
+# https://setuptools.readthedocs.io/en/latest/build_meta.html
+# https://github.com/pypa/setuptools/issues/1698
+
+[build-system]
+requires=["setuptools>=41.0", "wheel"]
+build-backend = "setuptools.build_meta"
