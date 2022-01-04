@@ -1,6 +1,7 @@
 include setup.cfg
 include README.rst
-include docs/conf.py docs/Makefile
+include LICENSE.txt
+include docs/source/conf.py docs/Makefile
 recursive-include tests *.py
 recursive-include docs *.rst
 graft docs/source/_static
