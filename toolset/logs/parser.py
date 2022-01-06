@@ -50,7 +50,4 @@ class Parser:
     def merge(self):
         """Merge log files."""
         merged = heapq.merge(*(map(lambda x: self.prepare_file(x), self._files)))
-
-        #: Disgusting solution to print it line by line, I know, but who cares )
-        for line in merged:
-            print(line)
+        print('\n'.join(merged))
